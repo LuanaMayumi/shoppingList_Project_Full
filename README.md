@@ -13,7 +13,7 @@ Para que você consiga acessar o projeto, siga as instruções abaixo:
 - [ ] Faça um clone do projeto em sua máquina utilizando o código SSH;
 
 <p align="center">
-  <img src="client/src/assets/HOW-TO-GET-SSH.gif">
+  <img src="assets/HOW-TO-GET-SSH.gif">
  </p>
 
 - [ ] Entre na pasta raiz do projeto (project-full) e navegue até a pasta *Server*. 
