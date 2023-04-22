@@ -1,0 +1,135 @@
+
+body
+  background-color: black
+  font-size: 1.8rem
+  display: flex
+  justify-content: center
+  place-items: center
+  text-align: center
+  min-width: 320px
+  min-height: 100vh
+  color: white
+
+.logo
+  width: 200px
+  margin-top: 50px
+  margin-bottom: 80px
+
+
+.title
+  color: #52B591
+  font-size: 3.2em
+  margin-bottom: 30px
+
+.inputs
+  display: flex
+  flex-direction: column
+  padding: 30px
+  // border: 1px solid green
+  border-radius: 5px
+  gap: 15px
+  align-items: center
+
+  input
+    border: 1px solid #FFFFFF
+    border-radius: 5px
+    width: 50vw
+    height: 30px
+    padding: 8px
+    background: none
+    font-size: 1.6rem
+    color: white
+
+.containerProductsList
+  width: 100%
+  display: flex
+  justify-content: center
+  margin-top: -27px
+
+
+.productsList
+  position: absolute
+  z-index: 1
+  background: rgba(0,0,0,93%)
+  max-height: 500px
+  width: 600px
+  overflow: scroll
+  // overflow: 'hidden'
+  padding: 0 1.5rem
+  text-align: right
+
+
+.containerProductSearched
+  display: flex
+  justify-content: flex-end
+  align-items: center
+  gap: 10px
+  padding: 5px 0
+  button
+    margin-left: 30px
+    max-width: 120px
+
+
+.containerListOfProducts
+  padding: 30px
+  display: flex
+  flex-direction: column
+  margin-bottom: 20px
+  h1
+    margin-bottom: 20px
+    color: #52B591
+
+.titleProducts
+  display: flex
+  justify-content: space-between
+  padding: 10px
+  // border: 1px solid purple
+  margin-bottom: 20px
+
+
+.productsChosen
+  display: flex
+  border: 1px solid grey
+  padding: 10px
+  gap: 7px
+  td
+    // border: 1px solid blue
+    display: flex
+    align-items: center
+  button
+    width: fit-content
+    padding: 1rem 1.5rem
+
+.nameProduct
+  width: 27%
+
+.qtyProduct
+  position: relative
+  // left: 20%
+
+
+button 
+  border: 1px solid #FFFFFF
+  border-radius: 5px
+  width: 10vw
+  padding: 8px
+  background: none
+  font-size: 1.6rem
+  color: white
+  &:hover 
+    border-color: #52B591
+    transition: border-color 0.25s
+
+.buttonFinishRequest
+  width: 20vw
+
+tbody
+  td
+    font-size: 1.4rem
+    padding: 20px
+
+
+.totalPriceAndFinishRequest
+  display: flex
+  justify-content: space-between
+
